@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wellbeing and Social Media</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      background: linear-gradient(135deg, #1c92d2, #f2fcfe);
+      color: #111;
+      min-height: 100vh;
+      padding: 2rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      max-width: 720px;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.2rem;
+      color: #1c92d2;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 1.2rem;
+      color: #555;
+      margin-top: 0;
+    }
+    article {
+      max-width: 720px;
+      background: #fff;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      line-height: 1.6;
+      font-size: 1.15rem;
+      color: #333;
+    }
+    article p + p {
+      margin-top: 1rem;
+    }
+    nav {
+      margin-top: 2rem;
+      width: 100%;
+      max-width: 720px;
+      text-align: center;
+    }
+    nav a {
+      color: #1c92d2;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 0.8rem 1.8rem;
+      border: 2px solid #1c92d2;
+      border-radius: 10px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #1c92d2;
+      color: white;
+    }
+    footer {
+      margin-top: auto;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+      text-align: center;
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      article {
+        padding: 1.2rem;
+      }
+      nav a {
+        display: inline-block;
+        margin: 0.5rem 0;
+        width: 90%;
+        max-width: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header data-aos="fade-down">
+  <h1>How Social Media Affects Wellbeing</h1>
+  <h2>Understanding emotional, social, and psychological impacts</h2>
+</header>
+
+<article data-aos="fade-up" data-aos-delay="200">
+  <p>Social media platforms like Instagram, TikTok, and Facebook offer instant connection but can also impact mental health in both positive and negative ways. The constant exposure to idealized images and social comparison often leads to feelings of anxiety, loneliness, and lowered self-esteem.</p>
+
+  <p>Research shows that excessive social media use is linked to increased rates of depression and stress, especially in teenagers. However, social media also provides spaces for support, awareness, and community building that can improve wellbeing.</p>
+
+  <p>It’s important to understand how to use social media mindfully by setting boundaries, limiting screen time, and focusing on meaningful interactions rather than likes or followers.</p>
+
+  <p>Through awareness and education, users can leverage social media for positive outcomes while protecting their mental health.</p>
+</article>
+
+<nav data-aos="fade-up" data-aos-delay="400" aria-label="Page navigation">
+  <a href="index.html">← Home</a>
+  <a href="gallery.html" style="margin-left: 1.5rem;">Next: Gallery & Slideshow →</a>
+</nav>
+
+<footer>
+  © 2025 by [Your Name]
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+
+</body>
+</html>
