@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Social Media & Wellbeing</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Preload Music -->
+  <link rel="preload" as="audio" href="background.mp3" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #f5f5f5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.3rem;
+      letter-spacing: 2px;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 1.2rem;
+      opacity: 0.8;
+      margin-top: 0;
+    }
+    nav {
+      margin-top: 3rem;
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      background: rgba(255 255 255 / 0.2);
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      color: #f5f5f5;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      box-shadow: 0 0 10px rgba(255 255 255 / 0.4);
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    nav a:hover {
+      background: #f5f5f5;
+      color: #2575fc;
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #f5f5f5;
+    }
+    main p {
+      max-width: 650px;
+      line-height: 1.6;
+      font-size: 1.15rem;
+      margin: 0 auto;
+      margin-top: 1.5rem;
+      text-align: center;
+      opacity: 0.9;
+    }
+    footer {
+      margin-top: auto;
+      font-size: 0.85rem;
+      opacity: 0.6;
+      text-align: center;
+      padding: 1rem;
+    }
+    /* Responsive */
+    @media (max-width: 500px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Background music -->
+  <audio autoplay loop hidden>
+    <source src="background.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <header data-aos="fade-down">
+    <h1>Social Media & Wellbeing</h1>
+    <h2>Exploring the impact of social media on mental health</h2>
+  </header>
+
+  <main>
+    <p data-aos="fade-up" data-aos-delay="200">
+      Social media connects billions of people worldwide but also raises concerns about mental health and wellbeing. This presentation dives deep into how platforms affect our emotions, relationships, and self-image.
+    </p>
+  </main>
+
+  <nav data-aos="fade-up" data-aos-delay="400" role="navigation" aria-label="Main navigation">
+    <a href="wellbeing.html">Learn More</a>
+    <a href="gallery.html">Gallery & Slideshow</a>
+    <a href="reflection.html">Reflection</a>
+  </nav>
+
+  <footer data-aos="fade-up" data-aos-delay="600">
+    © 2025 by [Your Name] — Preliminary Standard English Module A
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true,
+    });
+  </script>
+</body>
+</html>
